@@ -48,8 +48,8 @@ cacheSolve <- function(x, ...) {
 	}
 
 	## there is no cached value, hence getting the matrix data to compute the inverse
-  message("No cached data availabe. Hence, calculating the inverse !")
-  matData <- x$getMatrix()
+	message("No cached data availabe. Hence, calculating the inverse !")
+	matData <- x$getMatrix()
 
 	## computing the inverse
 	inverse <- solve(matData)
